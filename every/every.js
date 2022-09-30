@@ -16,3 +16,6 @@ const team = [
       age: 18,
     },
   ];
+
+const rta = team.every( item => item.age <= 40);
+console.log(rta)
