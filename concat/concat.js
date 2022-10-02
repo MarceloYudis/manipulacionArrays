@@ -4,3 +4,6 @@ const hik = ["camaras IP","control de acceso","video porteros de edificios"]
 const marcas = garen.concat(hik)
 
 console.log(marcas)
+
+garen.push(...hik);
+console.log(garen)
